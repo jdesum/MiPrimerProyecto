@@ -6,4 +6,5 @@
     <!-- Colores personalizados -->
     <color name="white">#FFFFFF</color>
     <color name="blue">#3CABFE</color>
+    <color name="black">#000</color>
 </resources>
