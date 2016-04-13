@@ -12,7 +12,6 @@
     <ImageView android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="top|center"
         android:src="@drawable/background_marcianito"
         android:scaleType="fitXY"
         android:layout_alignParentTop="true" />
@@ -24,14 +23,13 @@
         android:textSize="70sp"
         android:textColor="@android:color/white"
         android:textStyle="bold"
-        android:layout_gravity="center_horizontal|top"
-        android:layout_marginTop="63dp"
+
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
     <Button android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical|center_horizontal"
         android:text="@string/button_name"
         android:textColor="@android:color/white"
         android:textAllCaps="false"
