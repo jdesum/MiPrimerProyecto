@@ -14,7 +14,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="top|center"
         android:src="@drawable/background_marcianito"
-        android:scaleType="centerCrop"
+        android:scaleType="fitXY"
         android:layout_alignParentTop="true" />
     <TextView android:id="@+id/textView"
         android:layout_width="wrap_content"
